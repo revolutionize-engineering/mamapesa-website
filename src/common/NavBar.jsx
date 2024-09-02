@@ -11,10 +11,10 @@ const NavBar = () => {
         <img src={mamapesalogo} alt="mamapesa logo" className="w-full h-full" />
       </div>
       <div className="flex uppercase gap-10 font-semibold">
-        <p className="hover:text-gray-400 cursor-pointer transition-colors duration-300">
-          Services
+        <p className="hover:text-gray-500 cursor-pointer transition-colors duration-300">
+          Features
         </p>
-        <p className="hover:text-gray-400 cursor-pointer transition-colors duration-300">
+        <p className="hover:text-gray-500 cursor-pointer transition-colors duration-300">
           About us
         </p>
       </div>

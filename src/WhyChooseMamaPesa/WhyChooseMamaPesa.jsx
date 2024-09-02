@@ -13,7 +13,7 @@ const WhyChooseMamaPesa = () => {
       <p className="text-center text-[16px] text-[#571C0E]">
         Offers loans and savings for assets to help grow your business
       </p>
-      <div className="grid grid-cols-3 w-[79%] mx-auto mt-[2.8rem]">
+      <div className="grid grid-cols-3 w-[79%] mx-auto mt-[4.8rem]">
         <Block
           image={AIBot}
           title={"Personalized Financial Guidance"}
