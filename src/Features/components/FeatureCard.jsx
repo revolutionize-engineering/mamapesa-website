@@ -4,7 +4,7 @@ const FeatureCard = ({ image, imagePos, content, type }) => {
   return (
     <div
       className={`flex py-[3.5rem] px-[4.5rem] ${
-        type == "interest" ? "gap-[5.5rem]" : "gap-4"
+        type == "interest" ? "gap-[11.5rem]" : "gap-4"
       }`}
     >
       <div
