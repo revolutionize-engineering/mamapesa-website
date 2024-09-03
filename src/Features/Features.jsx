@@ -5,9 +5,7 @@ import chatbot from "../assets/chatbot.png";
 const Features = ({ imagePos }) => {
   return (
     <div className=" mx-auto py-8">
-      <h1 className="text-4xl font-semibold mb-5 px-[4.5rem]">
-        Mamapesa Features
-      </h1>
+      <h1 className="text-4xl font-semibold px-[4.5rem]">Mamapesa Features</h1>
       <div>
         {/* card */}
         <FeatureCard
@@ -30,7 +28,7 @@ const Features = ({ imagePos }) => {
             </p>
           }
           image={chatbot}
-          imagePos="left"
+          imagePos="right"
         />
         <FeatureCard
           content={
@@ -41,7 +39,7 @@ const Features = ({ imagePos }) => {
             </p>
           }
           image={chatbot}
-          imagePos="left"
+          imagePos="right"
         />
       </div>
     </div>

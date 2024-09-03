@@ -14,9 +14,11 @@ const NavBar = () => {
         <p className="hover:text-gray-500 cursor-pointer transition-colors duration-300">
           Features
         </p>
-        <p className="hover:text-gray-500 cursor-pointer transition-colors duration-300">
-          About us
-        </p>
+        <a href="#contactus">
+          <p className="hover:text-gray-500 cursor-pointer transition-colors duration-300">
+            Contact us
+          </p>
+        </a>
       </div>
     </div>
   );
