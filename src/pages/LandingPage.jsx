@@ -5,6 +5,7 @@ import Footer from "../common/Footer";
 import DownLoadApp from "../DownLoadApp/DownLoadApp";
 import FAQS from "../FAQS/FAQS";
 import Features from "../Features/Features";
+import ContactUs from "../ContactUs/ContactUs";
 
 const LandingPage = () => {
   return (
@@ -13,6 +14,7 @@ const LandingPage = () => {
       <DownLoadApp />
       <FAQS />
       <Features />
+      <ContactUs />
       <Footer />
     </div>
   );
