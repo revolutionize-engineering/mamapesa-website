@@ -17,6 +17,7 @@ const FeedBackInput = ({ title, placeholder }) => {
           onChange={(e) => setValue(e.target.value)}
           type="text"
           placeholder={placeholder}
+          required
         ></textarea>
       )}
       {title !== "Description" && (
@@ -26,6 +27,7 @@ const FeedBackInput = ({ title, placeholder }) => {
           onChange={(e) => setValue(e.target.value)}
           type="text"
           placeholder={placeholder}
+          required
         />
       )}
     </div>
