@@ -9,7 +9,7 @@ const ContactUs = () => {
       <p id="contactus" className=""></p>
       <div className="w-full mt-[5rem] md:mt-[8rem]">
         <div className="w-[85%] md:w-[58%] pb-[8rem] mx-auto ">
-          <h1 className="text-[32px] font-montserrat font-semibold text-center text-[#571C0E]">
+          <h1 className="text-[25px] md:text-[32px] font-montserrat font-semibold text-center text-[#571C0E]">
             Contact us
           </h1>
           <h1 className="text-center text-[16px] text-[#571C0E]r">
