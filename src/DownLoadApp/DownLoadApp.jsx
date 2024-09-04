@@ -4,9 +4,9 @@ import MamapesaMockUp from "../assets/MamapesaMockUp.png";
 const DownLoadApp = () => {
   return (
     <>
-      <div className="grid grid-cols-2 py-[2.5rem] font-montserrat bg-[#E18E2A] text-white">
-        <div className="px-[5rem] pt-[14%]">
-          <h1 className="text-4xl font-bold">
+      <div className="md:grid grid-cols-2 py-[2.5rem] font-montserrat bg-[#E18E2A] text-white">
+        <div className="px-[1.2rem] md:px-[5rem] pt-[5%] md:pt-[14%]">
+          <h1 className="text-[24px] md:text-4xl font-bold">
             Unlock Financial Freedom with MamaPesa
           </h1>
           <p className="my-8">
@@ -14,7 +14,7 @@ const DownLoadApp = () => {
             MamaPesa. Our app is designed to empower you on your journey to
             financial independence. From financing income-generating assets to
             managing utility services and accessing valuable financial tips,
-            we're here to support your goals. Take control of your finances
+            we&#39;re here to support your goals. Take control of your finances
             today – download MamaPesa and embark on a transformative financial
             journey.
           </p>
@@ -25,8 +25,8 @@ const DownLoadApp = () => {
             Get App
           </button>
         </div>
-        <div className="flex items-center justify-center">
-          <div className="w-[20rem]">
+        <div className="flex items-center justify-center mt-[4rem] md:mt-0">
+          <div className="w-[13rem] md:w-[20rem]">
             <img
               src={MamapesaMockUp}
               alt="Mamapesa MockUp"

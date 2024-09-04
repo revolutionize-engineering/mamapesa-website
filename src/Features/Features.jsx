@@ -11,14 +11,14 @@ const Features = ({ imagePos }) => {
     <>
       <p id="features" className="mb-12"></p>
       <div className=" mx-auto py-8">
-        <h1 className="text-4xl font-semibold px-[4.5rem]">
+        <h1 className="text-[25px] md:text-4xl font-montserrat font-semibold px-[4.5rem]">
           Mamapesa Features
         </h1>
         <div>
           {/* card */}
           <FeatureCard
             content={
-              <p className="text-3xl font-semibold font-opensans ">
+              <p className="text-[18px] md:text-3xl font-semibold font-opensans ">
                 Personalized <span className="text-[#E18E2A]">Financial</span>{" "}
                 <span className="text-[#571C0E]">Guidance</span> using Mamapesa
                 chatbot
@@ -29,7 +29,7 @@ const Features = ({ imagePos }) => {
           />
           <FeatureCard
             content={
-              <p className="text-3xl font-semibold font-opensans ">
+              <p className="text-[18px] md:text-3xl font-semibold font-opensans ">
                 Business <span className="text-[#E18E2A]">asset savings</span>{" "}
                 tailored to your <span className="text-[#571C0E]">goals</span>
               </p>
@@ -40,7 +40,7 @@ const Features = ({ imagePos }) => {
           />
           <FeatureCard
             content={
-              <p className="text-3xl font-semibold font-opensans ">
+              <p className="text-[18px] md:text-3xl font-semibold font-opensans ">
                 Get <span className="text-[#E18E2A]">interest-free</span>{" "}
                 <span className="text-[#571C0E]">loans</span> with Mamapesa
               </p>
@@ -52,7 +52,7 @@ const Features = ({ imagePos }) => {
           />
           <FeatureCard
             content={
-              <p className="text-3xl font-semibold font-opensans ">
+              <p className="text-[18px] md:text-3xl font-semibold font-opensans ">
                 <span className="text-[#E18E2A]">Group savings</span> for a
                 common
                 <span className="text-[#571C0E]"> goal</span> or asset
@@ -64,7 +64,7 @@ const Features = ({ imagePos }) => {
           />
           <FeatureCard
             content={
-              <p className="text-3xl font-semibold font-opensans ">
+              <p className="text-[18px] md:text-3xl font-semibold font-opensans ">
                 {" "}
                 Convenient
                 <span className="text-[#571C0E]"> extra services</span> like
