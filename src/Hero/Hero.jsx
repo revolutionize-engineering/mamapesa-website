@@ -9,7 +9,7 @@ const Hero = () => {
       <img
         src={ImageHero}
         alt="Background"
-        className=" lg:block w-full min-h-[43rem] md:min-h-96 md:object-cover "
+        className=" lg:block w-full min-h-[43rem] md:min-h-96 md:object-cover object-center"
       />
 
       <main

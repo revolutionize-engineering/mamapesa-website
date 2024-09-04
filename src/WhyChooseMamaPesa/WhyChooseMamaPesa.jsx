@@ -6,8 +6,9 @@ import interestFree from "../assets/interestFree.png";
 
 const WhyChooseMamaPesa = () => {
   return (
+    // [rgba(225,142,42,0.1)]
     <>
-      <div className="bg-[rgba(225,142,42,0.1)] py-[7rem] px-[1rem]">
+      <div className="bg-white py-[7rem] px-[1rem]">
         <h1 className="text-[25px] md:text-[32px] font-montserrat font-semibold md:text-center text-[#571C0E]">
           Why choose Mamapesa as your financial app?
         </h1>
@@ -34,7 +35,6 @@ const WhyChooseMamaPesa = () => {
           />
         </div>
       </div>
-      <p id="getapp" className=""></p>
     </>
   );
 };
