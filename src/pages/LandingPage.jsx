@@ -6,10 +6,12 @@ import DownLoadApp from "../DownLoadApp/DownLoadApp";
 import FAQS from "../FAQS/FAQS";
 import Features from "../Features/Features";
 import ContactUs from "../ContactUs/ContactUs";
+import Hero from "../Hero/Hero";
 
 const LandingPage = () => {
   return (
-    <div className="pt-[5rem]">
+    <div className="">
+      <Hero />
       <WhyChooseMamaPesa />
       <DownLoadApp />
       <FAQS />
