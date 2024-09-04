@@ -3,7 +3,7 @@ import mamapesalogo from "../assets/mamapesalogo.png";
 import { List, X } from "phosphor-react";
 
 const NavBar = () => {
-  const [navBarOpen, setNavBarOpen] = useState(true);
+  const [navBarOpen, setNavBarOpen] = useState(false);
   return (
     <div className="relative">
       <div
@@ -17,9 +17,10 @@ const NavBar = () => {
             className="w-full h-full"
           />
         </div>
+        {/* menu bar to toggle the navbar */}
         <button
           onClick={() => setNavBarOpen((current) => !current)}
-          className="border-[1px] border-gray-400 p-[0.2rem] hover:bg-gray-200 rounded-lg"
+          className="border-[1px] border-gray-400 p-[0.2rem] hover:bg-gray-200 rounded-lg md:hidden"
         >
           <List size={25} className={`${navBarOpen ? "hidden" : ""}`} />
           <X size={25} className={`${navBarOpen ? "" : "hidden"}`} />
