@@ -5,11 +5,11 @@ import ImageHero from "../assets/ImageHero.jpg";
 const Hero = () => {
   return (
     /*Background Image*/
-    <div className="relative w-full min-h-[43rem] md:min-h-96 h-full bg-red-300 overflow-hidden">
+    <div className="relative w-full min-h-[43rem] md:min-h-96 h-full overflow-hidden">
       <img
         src={ImageHero}
         alt="Background"
-        className=" lg:block w-full min-h-[43rem] md:min-h-96 md:object-cover object-center"
+        className=" hidden lg:block w-full min-h-[43rem] md:min-h-96 md:object-cover object-center"
       />
 
       <main
@@ -23,8 +23,10 @@ const Hero = () => {
             Unlocking Financial Inclusion For Women in Africa{" "}
           </h1>
           <ul className="list-none space-y-2 md:space-y-6">
-            <li className="flex items-center">
-              <CheckCircle size={32} className="mr-2 fill-green-500" />
+            <li className="flex">
+              <div>
+                <CheckCircle size={32} className="mr-2 fill-green-500" />
+              </div>
               <span className="font-semibold text-lg">
                 Personalized financial guidance using mamapesa chatbot
               </span>
