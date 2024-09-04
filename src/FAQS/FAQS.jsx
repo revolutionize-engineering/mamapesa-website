@@ -4,9 +4,9 @@ import Accordion from "./components/Accordion";
 
 const FAQS = () => {
   return (
-    <div className="py-[6rem] bg-[rgba(225,142,42,0.1)] grid grid-cols-[0.5fr,1fr]">
-      <div className="  px-[5rem] font-montserrat">
-        <h1 className="text-[32px] text-left  font-semibold   ">
+    <div className="py-[6rem] bg-[rgba(225,142,42,0.1)] md:grid grid-cols-[0.5fr,1fr] flex flex-col">
+      <div className="px-[1rem] md:px-[5rem] font-montserrat">
+        <h1 className="text-[24px] md:text-[32px] text-left  font-semibold">
           MamaPesa - Your Questions Answered
         </h1>
         <p className={` text-[16px] mt-4 text-left`}>
@@ -17,13 +17,13 @@ const FAQS = () => {
         <a href="#contactus">
           <button
             className="px-5 py-3 rounded-3xl bg-[#E18E2A] hover:bg-[#c7771f]
-          font-semibold text-white transition-colors duration-300 mt-8"
+          font-semibold text-white transition-colors duration-300 mt-8 w-full md:w-fit"
           >
             Contact us
           </button>
         </a>
       </div>
-      <div className="">
+      <div className="mt-8 md:mt-0">
         <div className="w-full flex justify-center font-montserrat h-full ">
           <div className=" w-[90%] h-full flex flex-col ">
             <Accordion

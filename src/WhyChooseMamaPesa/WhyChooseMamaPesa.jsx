@@ -6,18 +6,19 @@ import interestFree from "../assets/interestFree.png";
 
 const WhyChooseMamaPesa = () => {
   return (
+    // [rgba(225,142,42,0.1)]
     <>
-      <div className="bg-[rgba(225,142,42,0.1)] py-[7rem] ">
-        <h1 className="text-[32px] font-montserrat font-semibold text-center text-[#571C0E]">
+      <div className="bg-white py-[7rem] px-[1rem]">
+        <h1 className="text-[25px] md:text-[32px] font-montserrat font-semibold md:text-center text-[#571C0E]">
           Why choose Mamapesa as your financial app?
         </h1>
         <p className="text-center text-[16px] text-[#571C0E]">
           Offers loans and savings for assets to help grow your business
         </p>
-        <div className="grid grid-cols-3 w-[79%] mx-auto mt-[4.8rem]">
+        <div className="md:grid md:grid-cols-3 flex flex-col justify-center gap-8 mx-auto mt-[4.8rem]">
           <Block
             image={AIBot}
-            title={"Personalized Financial Guidance"}
+            title={" Financial Guidance using AI"}
             desc={
               "Receive tailored advice from our AI to optimize your savings and loan options."
             }
@@ -34,7 +35,6 @@ const WhyChooseMamaPesa = () => {
           />
         </div>
       </div>
-      <p id="getapp" className=""></p>
     </>
   );
 };

@@ -10,7 +10,7 @@ const NavBar = () => {
         className="fixed top-0 z-40 w-full h-[4rem] flex items-center justify-between px-[1rem]  md:px-[5rem] border-t-[1px]
       border-gray-300 border-b-[1px] bg-white "
       >
-        <div className=" w-[11rem] h-fit">
+        <div className=" w-[8rem] h-fit">
           <img
             src={mamapesalogo}
             alt="mamapesa logo"
@@ -41,7 +41,7 @@ const NavBar = () => {
       </div>
       {/* for mobile */}
       <div
-        className={`fixed top-[4rem] z-30 bg-white w-full h-[5rem] ${
+        className={`fixed top-[4.0rem] z-30 bg-white w-full h-[7rem] pt-4 ${
           navBarOpen ? "" : "-translate-y-full"
         } transition-transform duration-500 px-1 text-sm font-medium`}
       >
