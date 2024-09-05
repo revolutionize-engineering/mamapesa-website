@@ -14,7 +14,7 @@ const EmpowerWomen = ({ image, title, desc }) => {
           <p className="text-[18px] mt-5 md:mt-4 text-left">{desc}</p>
           <button
             className="px-5 py-3 rounded-3xl border-[1px] text-[#E18E2A] border-[#E18E2A] hover:bg-gray-200
-          font-semibold transition-colors duration-300 mt-10 w-fit"
+          font-semibold transition-colors duration-300 mt-10 mb-4 w-fit"
           >
             Learn more
           </button>

@@ -26,7 +26,7 @@ const NavBar = () => {
           <X size={25} className={`${navBarOpen ? "" : "hidden"}`} />
         </button>
         {/* for desktop */}
-        <div className="uppercase gap-10 hidden md:flex font-semibold">
+        <div className="uppercase gap-10 hidden md:flex items-center font-semibold">
           <a href="#features">
             <p className="hover:text-gray-500 cursor-pointer transition-colors duration-300">
               Features
@@ -37,11 +37,21 @@ const NavBar = () => {
               Contact us
             </p>
           </a>
+          <a href="#getapp" onClick={() => setNavBarOpen(false)}>
+            <p className="hover:text-gray-500 cursor-pointer transition-colors duration-300 hover:bg-gray-100 py-2 px-3">
+              Get app
+            </p>
+          </a>
+          <a href="#faqs" onClick={() => setNavBarOpen(false)}>
+            <p className="hover:text-gray-500 cursor-pointer transition-colors duration-300 hover:bg-gray-100 py-2 px-3">
+              FAQs
+            </p>
+          </a>
         </div>
       </div>
       {/* for mobile */}
       <div
-        className={`fixed top-[4.0rem] z-30 bg-white w-full h-[7rem] pt-4 ${
+        className={`fixed top-[4.0rem] z-30 bg-white w-full h-[12rem] pt-4 ${
           navBarOpen ? "" : "-translate-y-full"
         } transition-transform duration-500 px-1 text-sm font-medium`}
       >
@@ -53,6 +63,16 @@ const NavBar = () => {
         <a href="#contactus" onClick={() => setNavBarOpen(false)}>
           <p className="hover:text-gray-500 cursor-pointer transition-colors duration-300 hover:bg-gray-100 py-2 px-3">
             Contact us
+          </p>
+        </a>
+        <a href="#getapp" onClick={() => setNavBarOpen(false)}>
+          <p className="hover:text-gray-500 cursor-pointer transition-colors duration-300 hover:bg-gray-100 py-2 px-3">
+            Get app
+          </p>
+        </a>
+        <a href="#faqs" onClick={() => setNavBarOpen(false)}>
+          <p className="hover:text-gray-500 cursor-pointer transition-colors duration-300 hover:bg-gray-100 py-2 px-3">
+            FAQs
           </p>
         </a>
       </div>
