@@ -12,7 +12,7 @@ const ContactUs = () => {
           <h1 className="text-[25px] md:text-[32px] font-montserrat font-semibold text-center text-[#571C0E]">
             Contact us
           </h1>
-          <h1 className="text-center text-[16px] text-[#571C0E]r">
+          <h1 className="text-center text-[16px] text-[#571C0E]">
             Get in touch
           </h1>
           <div className="md:flex justify-between gap-10 mt-[2rem] md:mt-[5rem] overflow-x-hidden">

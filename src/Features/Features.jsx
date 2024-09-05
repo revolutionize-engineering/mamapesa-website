@@ -36,7 +36,6 @@ const Features = ({ imagePos }) => {
             }
             image={GoalOrientedSavings}
             imagePos="left"
-            type="interest"
           />
           <FeatureCard
             content={

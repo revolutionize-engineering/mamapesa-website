@@ -6,7 +6,7 @@ const FAQS = () => {
   return (
     <div className="py-[6rem] bg-[rgba(225,142,42,0.1)] md:grid grid-cols-[0.5fr,1fr] flex flex-col">
       <div className="px-[1rem] md:px-[5rem] font-montserrat">
-        <h1 className="text-[24px] md:text-[32px] text-left  font-semibold   ">
+        <h1 className="text-[24px] md:text-[32px] text-left  font-semibold">
           MamaPesa - Your Questions Answered
         </h1>
         <p className={` text-[16px] mt-4 text-left`}>

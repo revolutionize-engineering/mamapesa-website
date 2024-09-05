@@ -41,7 +41,7 @@ const NavBar = () => {
       </div>
       {/* for mobile */}
       <div
-        className={`fixed top-[3.4rem] z-30 bg-white w-full h-[5rem] ${
+        className={`fixed top-[4.0rem] z-30 bg-white w-full h-[7rem] pt-4 ${
           navBarOpen ? "" : "-translate-y-full"
         } transition-transform duration-500 px-1 text-sm font-medium`}
       >
