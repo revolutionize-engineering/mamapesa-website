@@ -11,12 +11,14 @@ import Banner from "../Banner/Banner";
 import UnlockYourPotential from "../UnlockYourPotential/UnlockYourPotential";
 import woman from "../assets/EmpowerWomen.png";
 import independence from "../assets/FinancialIndependence.png";
+import Importance from "../Importance/Importance";
 
 const LandingPage = () => {
   return (
     <div className="">
       <Hero />
       <WhyChooseMamaPesa />
+      <Importance />
       <Banner
         image={woman}
         title="Empowering Women's Financial Independence"
@@ -32,7 +34,8 @@ const LandingPage = () => {
         title="Unlock financial independence"
         desc="Transform your future with MamaPesa - the app that helps you secure funding for income-generating ventures."
       />
-      <p id="getapp" className="mt-2"></p>
+      {/* <p id="getapp" className="mt-2"></p> */}
+      <p id="faqs" className="mt-2"></p>
       <FAQS />
       <ContactUs />
       <Footer />

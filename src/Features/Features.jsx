@@ -11,7 +11,7 @@ const Features = ({ imagePos }) => {
     <>
       <p id="features" className="mb-12"></p>
       <div className=" mx-auto py-8">
-        <h1 className="text-[25px] md:text-4xl font-montserrat font-semibold px-[4.5rem]">
+        <h1 className="text-[25px] md:text-4xl font-montserrat font-semibold px-[2rem] md:px-[4.5rem]">
           Mamapesa Features
         </h1>
         <div>
