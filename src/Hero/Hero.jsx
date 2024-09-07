@@ -1,6 +1,7 @@
 import React from 'react';
 import { CheckCircle } from '@phosphor-icons/react';
 import ImageHero from '../assets/ImageHero.jpg';
+import Features from '../Features/Features';
 
 const Hero = () => {
   return (
@@ -43,7 +44,7 @@ const Hero = () => {
                 </li>
             </ul>
 
-            <button className="font-montserrat font-semibold text-white py-2 px-4 my-6 rounded hover:bg-[#7a2713] bg-[#571C0E]" >
+            <button className="font-montserrat font-semibold text-white py-2 px-4 my-6 rounded hover:bg-[#7a2713] bg-[#571C0E]" onClick={() => document.getElementById('features-section').scrollIntoView({ behavior:'smooth'})} >
                 View our Services
             </button>
         </div>
