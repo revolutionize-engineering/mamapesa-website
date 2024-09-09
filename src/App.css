@@ -32,3 +32,27 @@ html {
 .scrollble:hover::-webkit-scrollbar-thumb {
   background-color: rgba(0, 0, 0, 0.5); /* Darker color when hovered */
 }
+
+.scrollbleChat {
+  overflow: auto;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent; /* For Firefox */
+}
+
+.scrollbleChat::-webkit-scrollbar {
+  width: 4px; /* Adjust the width of the scrollbar */
+}
+
+.scrollbleChat::-webkit-scrollbar-track {
+  background: transparent; /* Track is hidden */
+}
+
+.scrollbleChat::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Color of the scrollbar */
+  border-radius: 10px; /* Roundness of the scrollbar */
+  border: 2px solid transparent; /* Padding around scrollbar */
+  background-clip: content-box;
+}
+
+.scrollbleChat:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* Darker color when hovered */
+}

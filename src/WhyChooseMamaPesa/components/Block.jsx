@@ -2,7 +2,7 @@ import React from "react";
 
 const Block = ({ image, title, desc }) => {
   return (
-    <div className=" w-[22rem] flex flex-col items-center gap-3">
+    <div className="  md:w-[22rem] flex flex-col items-center gap-3">
       <div className="w-[7.5rem] h-[5.5rem] bg-transparent">
         <img src={image} alt="title" className="w-full h-full" />
       </div>
