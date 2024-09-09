@@ -1,14 +1,17 @@
 import React from "react";
 import mamaPesaLogo from "../../assets/smallLogo.png";
 
-const ChatBubble = ({ type }) => {
+const ChatBubble = ({ type, message }) => {
   return (
     <div
-      className={` w-full flex ${type === "user" ? "justify-end w-full" : ""} `}
+      className={` w-full flex ${
+        type === "user" ? "justify-between w-full" : ""
+      } `}
     >
+      <div></div>
       <div
-        className={`flex gap-4 my-[1rem] ${
-          type === "user" ? "w-[85%] p-[1rem]" : ""
+        className={`flex gap-4 md:my-[1rem] ${
+          type === "user" ? "w-[85%] p-[1rem] justify-end" : ""
         }`}
       >
         <div>
@@ -30,10 +33,7 @@ const ChatBubble = ({ type }) => {
               type === "user" ? "bg-gray-100" : ""
             } p-4 rounded-3xl`}
           >
-            To scroll a div to the bottom in your React app, you can use the
-            useRef hook to get a reference to the div and then use the
-            scrollIntoView method to scroll to the bottom. Here's a simple
-            implementation:
+            {message}
           </p>
         </div>
       </div>
