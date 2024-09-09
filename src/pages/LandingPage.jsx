@@ -12,10 +12,11 @@ import UnlockYourPotential from "../UnlockYourPotential/UnlockYourPotential";
 import woman from "../assets/EmpowerWomen.png";
 import independence from "../assets/FinancialIndependence.png";
 import Importance from "../Importance/Importance";
+import { NavLink } from "react-router-dom";
 
 const LandingPage = () => {
   return (
-    <div className="">
+    <div className="relative">
       <Hero />
       <WhyChooseMamaPesa />
       <Importance />
@@ -39,6 +40,11 @@ const LandingPage = () => {
       <FAQS />
       <ContactUs />
       <Footer />
+
+      {/* the chatbot floating button */}
+      <NavLink to="/mamapesa-ai">
+        <button className="fixed bottom-[2rem] right-[2rem] size-[2.5rem] bg-red-300 rounded-full"></button>
+      </NavLink>
     </div>
   );
 };
