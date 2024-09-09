@@ -13,6 +13,8 @@ import woman from "../assets/EmpowerWomen.png";
 import independence from "../assets/FinancialIndependence.png";
 import Importance from "../Importance/Importance";
 import { NavLink } from "react-router-dom";
+import { Chats } from "@phosphor-icons/react"; 
+
 
 const LandingPage = () => {
   return (
@@ -41,9 +43,12 @@ const LandingPage = () => {
       <ContactUs />
       <Footer />
 
+
       {/* the chatbot floating button */}
       <NavLink to="/mamapesa-ai">
-        <button className="fixed bottom-[2rem] right-[2rem] size-[2.5rem] bg-red-300 rounded-full"></button>
+        <button className="fixed bottom-[2rem] right-[2rem] size-[4rem] bg-[#E18E2A] rounded-full flex items-center justify-center opacity-80 animate-bounce">
+          <Chats size={38} weight="fill" color="#571C0E"/>
+        </button>
       </NavLink>
     </div>
   );
