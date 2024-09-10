@@ -28,7 +28,7 @@ const Hero = () => {
                 <CheckCircle size={32} className="mr-2 fill-green-500" />
               </div>
               <span className="font-semibold text-lg">
-                Personalized financial guidance using mamapesa chatbot
+                Pay once, get expert financial advice with MamaPesa chatbot
               </span>
             </li>
 
