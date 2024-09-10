@@ -57,6 +57,11 @@ const NavBar = () => {
               FAQs
             </p>
           </a>
+          <a href="/mamapesa-ai" onClick={() => setNavBarOpen(false)}>
+            <p className="hover:text-gray-500 cursor-pointer transition-colors duration-300 hover:bg-gray-100 py-2 px-3">
+              MamaPesa AI
+            </p>
+        </a>
         </div>
       </div>
       {/* for mobile */}
@@ -84,6 +89,11 @@ const NavBar = () => {
           <p className="hover:text-gray-500 cursor-pointer transition-colors duration-300 hover:bg-gray-100 py-2 px-3">
             FAQs
           </p>
+        </a>
+        <a href="/mamapesa-ai" onClick={() => setNavBarOpen(false)}>
+            <p className="hover:text-gray-500 cursor-pointer transition-colors duration-300 hover:bg-gray-100 py-2 px-3">
+              MamaPesa AI
+            </p>
         </a>
       </div>
     </div>
