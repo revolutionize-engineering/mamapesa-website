@@ -48,7 +48,6 @@ const Chatbot = () => {
               );
             })}
           {/* <ChatBubble type="user" /> */}
-          <ChatBubble message="Woah I don't work for now." />
           {/* Dummy div to scroll to */}
           <div ref={bottomRef} />
         </div>

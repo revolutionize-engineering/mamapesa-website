@@ -57,11 +57,11 @@ const NavBar = () => {
               FAQs
             </p>
           </a>
-          <a href="/mamapesa-ai" onClick={() => setNavBarOpen(false)}>
+          <NavLink to="/payment-ai">
             <p className="text-[#571C0E] bg-[#E18E2A] py-2 px-3 rounded-lg cursor-pointer transition-shadow duration-300 hover:shadow-lg hover:shadow-gray-400">
               MamaPesa AI
             </p>
-        </a>
+        </NavLink>
         </div>
       </div>
       {/* for mobile */}
@@ -90,11 +90,12 @@ const NavBar = () => {
             FAQs
           </p>
         </a>
-        <a href="/mamapesa-ai" onClick={() => setNavBarOpen(false)}>
-            <p className="text-[#571C0E] py-2 px-3 animate-bounce cursor-pointer rounded-lg ">
+        <NavLink to="/payment-ai" >
+            <p className="text-[#E18E2A] cursor-pointer transition-colors duration-300 hover:bg-gray-100 py-2 px-3 ">
               MamaPesa AI
             </p>
-        </a>
+
+        </NavLink>
       </div>
     </div>
   );
