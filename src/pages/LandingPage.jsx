@@ -45,11 +45,13 @@ const LandingPage = () => {
 
 
       {/* the chatbot floating button */}
-      <NavLink to="/mamapesa-ai">
+      
+       <NavLink to="/mamapesa-ai">
         <button className="fixed bottom-[2rem] right-[2rem] size-[4rem] bg-[#E18E2A] rounded-full flex items-center justify-center opacity-80 animate-bounce">
           <Chats size={38} weight="fill" color="#571C0E"/>
         </button>
       </NavLink>
+      
     </div>
   );
 };
